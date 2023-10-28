@@ -1,0 +1,6 @@
+.icons {
+  transition: 1s ease-in-out;
+}
+.icon:hover {
+  transform: translateY(-30px);
+}
