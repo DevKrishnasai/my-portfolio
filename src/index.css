@@ -174,3 +174,7 @@ video {
     height: fit-content;
   }
 }
+
+body::-webkit-scrollbar {
+  width: 0;
+}

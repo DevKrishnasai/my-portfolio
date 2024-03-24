@@ -1,5 +1,13 @@
 import React from "react";
-import { stackList, about, tools } from "../../data/ProjectData";
+import {
+  languagesList,
+  about,
+  tools,
+  LibrariesAndFrameworks,
+  databasesList,
+  uiLibraries,
+  servicesList,
+} from "../../data/ProjectData";
 import { Technologies, Tech, ContactWrapper, TechImg } from "./AboutElements";
 import { TechCard } from "../Projects/ProjectCard/ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -25,12 +33,14 @@ function About() {
             <br />
             <ScrollAnimation animateIn="fadeInRight" animateOnce>
               <h3 style={{ fontWeight: "700" }}>
-                Technologies i'm familiar with ➜
+                <TechCard style={{ backgroundColor: "black", color: "white" }}>
+                  Languages
+                </TechCard>
               </h3>
             </ScrollAnimation>
             <br />
             <Technologies>
-              {stackList.map((stack, index) => (
+              {languagesList.map((stack, index) => (
                 <ScrollAnimation
                   animateIn="fadeInLeft"
                   key={index}
@@ -46,7 +56,107 @@ function About() {
             <br />
 
             <ScrollAnimation animateIn="fadeInRight" animateOnce>
-              <h3 style={{ fontWeight: "700" }}>Tools i'm familiar with ➜</h3>
+              <h3 style={{ fontWeight: "700" }}>
+                <TechCard style={{ backgroundColor: "black", color: "white" }}>
+                  Libraries & Frameworks
+                </TechCard>
+              </h3>
+            </ScrollAnimation>
+            <br />
+            <Technologies>
+              {LibrariesAndFrameworks.map((stack, index) => (
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  key={index}
+                  animateOut="fadeOutRight"
+                >
+                  <Tech key={index} className="tech">
+                    <TechImg src={stack.img} alt={stack.name} />
+                    <TechCard>{stack.name}</TechCard>
+                  </Tech>
+                </ScrollAnimation>
+              ))}
+            </Technologies>
+
+            <br />
+
+            <ScrollAnimation animateIn="fadeInRight" animateOnce>
+              <h3 style={{ fontWeight: "700" }}>
+                <TechCard style={{ backgroundColor: "black", color: "white" }}>
+                  Databases
+                </TechCard>
+              </h3>
+            </ScrollAnimation>
+            <br />
+            <Technologies>
+              {databasesList.map((stack, index) => (
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  key={index}
+                  animateOut="fadeOutRight"
+                >
+                  <Tech key={index} className="tech">
+                    <TechImg src={stack.img} alt={stack.name} />
+                    <TechCard>{stack.name}</TechCard>
+                  </Tech>
+                </ScrollAnimation>
+              ))}
+            </Technologies>
+
+            <br />
+            <ScrollAnimation animateIn="fadeInRight" animateOnce>
+              <h3 style={{ fontWeight: "700" }}>
+                <TechCard style={{ backgroundColor: "black", color: "white" }}>
+                  UI Libraries
+                </TechCard>
+              </h3>
+            </ScrollAnimation>
+            <br />
+            <Technologies>
+              {uiLibraries.map((stack, index) => (
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  key={index}
+                  animateOut="fadeOutRight"
+                >
+                  <Tech key={index} className="tech">
+                    <TechImg src={stack.img} alt={stack.name} />
+                    <TechCard>{stack.name}</TechCard>
+                  </Tech>
+                </ScrollAnimation>
+              ))}
+            </Technologies>
+
+            <br />
+            <ScrollAnimation animateIn="fadeInRight" animateOnce>
+              <h3 style={{ fontWeight: "700" }}>
+                <TechCard style={{ backgroundColor: "black", color: "white" }}>
+                  Services
+                </TechCard>
+              </h3>
+            </ScrollAnimation>
+            <br />
+            <Technologies>
+              {servicesList.map((stack, index) => (
+                <ScrollAnimation
+                  animateIn="fadeInLeft"
+                  key={index}
+                  animateOut="fadeOutRight"
+                >
+                  <Tech key={index} className="tech">
+                    <TechImg src={stack.img} alt={stack.name} />
+                    <TechCard>{stack.name}</TechCard>
+                  </Tech>
+                </ScrollAnimation>
+              ))}
+            </Technologies>
+            <br />
+            <ScrollAnimation animateIn="fadeInRight" animateOnce>
+              <h3 style={{ fontWeight: "700" }}>
+                <TechCard style={{ backgroundColor: "black", color: "white" }}>
+                  Tools
+                </TechCard>
+              </h3>
             </ScrollAnimation>
             <br />
             <Technologies>

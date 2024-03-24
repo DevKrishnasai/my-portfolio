@@ -23,6 +23,14 @@ export const CardLeft = styled.div`
   img {
     object-fit: cover;
   }
+  @media (min-width: 992px) {
+    img {
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+  }
 `;
 
 export const CardRight = styled.div`
