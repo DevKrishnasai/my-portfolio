@@ -113,7 +113,7 @@ export const uiLibraries = [
     name: "Shadcn UI",
   },
   {
-    img: "https://daisyui.com/images/daisyui-logo/daisyui-logotype.svg",
+    img: "https://img.daisyui.com/images/daisyui-logo/daisyui-logotype-3600-1024.png",
     name: "Daisy UI",
   },
 ];
@@ -125,6 +125,10 @@ export const servicesList = [
   {
     img: "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png",
     name: "Supabase",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yMat4FGyt0-zd_oYGGUSQubI-3Ta71KDDQ&s",
+    name: "AWS",
   },
 ];
 export const tools = [
@@ -150,6 +154,25 @@ export const tools = [
 //projects information
 export const ProjectList = [
   {
+    img: "/Ecospend.png",
+    title: "Budget Tracker - EcoSpend",
+    description:
+      "EcoSpend is your ultimate budget tracking app designed to help you take control of your finances. Track expenses, set budgets, and achieve your financial goals effortlessly.",
+    tech_stack: [
+      "Typescript",
+      "Next JS",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Postgres",
+      "React Query",
+      "Recharts",
+      "Aceternity UI",
+      "Prisma ORM",
+    ],
+    github_url: "https://github.com/DevKrishnasai/EcoSpend",
+    demo_url: "https://ecospend.vercel.app/",
+  },
+  {
     img: "/MakeFriends.png",
     title: "Chat Appliaction - MakeFriends",
     description:
@@ -162,6 +185,7 @@ export const ProjectList = [
       "Shadcn UI",
       "Postgres",
       "Firebase",
+      "Drizzle ORM",
     ],
     github_url: "https://github.com/DevKrishnasai/makefriends",
     demo_url: "https://makefriendss.vercel.app/",
@@ -178,6 +202,7 @@ export const ProjectList = [
       "Postgres",
       "Tailwind CSS",
       "Shadcn UI",
+      "Prisma ORM",
     ],
     github_url: "https://github.com/DevKrishnasai/mytodosss",
     demo_url: "https://mytodosss.vercel.app/",
@@ -187,7 +212,7 @@ export const ProjectList = [
     title: "Portfolio Manager - Makefolio",
     description:
       "It is a web application that allows you to create and manage your portfolio with a simple user interface and host it in a platform. you can manage your portfolio throught this application",
-    tech_stack: ["JS", "ReactJS", "CSS", "MongoDB", "Firebase"],
+    tech_stack: ["JS", "ReactJS", "CSS", "Tailwind CSS", "MongoDB", "Firebase"],
     github_url: "https://github.com/DevKrishnasai/makefolio",
     demo_url: "https://makefolio.vercel.app/",
   },
@@ -222,7 +247,7 @@ export const ProjectList = [
 
   {
     img: "https://miro.medium.com/v2/resize:fit:1400/1*kSYWZ9OqPxUJfyVg_FQiSw.png",
-    title: "Chat Appliaction - Snap Talk",
+    title: "Chat App - Snap Talk",
     description:
       "A secure and feature-rich chat application built with Flutter and Firebase. This application allows users to chat with friends, create groups, and enjoy a beautiful user interface while ensuring message security.",
     tech_stack: ["Flutter", "Dart", "Firebase"],
