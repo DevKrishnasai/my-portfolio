@@ -81,3 +81,8 @@ yarn start
 ## Usage
 
 To start using the application, navigate to `http://localhost:3000` in your browser.
+
+## Reusability
+
+This portfolio is designed to be easily reusable. To update the content, simply modify the `src/data/ProjectData.js` file. This file contains all the data for the projects, skills, and other sections of the portfolio.
+
