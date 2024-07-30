@@ -154,6 +154,27 @@ export const tools = [
 //projects information
 export const ProjectList = [
   {
+    img: "/yourlms.png",
+    title: "Learning Management System - YourLMS",
+    description:
+      "YourLMS is designed to provide a seamless learning experience for both teachers and students. The platform offers a range of features to facilitate course creation, enrollment, and completion.",
+    tech_stack: [
+      "Typescript",
+      "Next JS",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Postgres",
+      "Aceternity UI",
+      "Prisma ORM",
+      "React Video",
+      "Razorpay",
+      "Clerk",
+      "React PDF",
+    ],
+    github_url: "https://github.com/DevKrishnasai/lms",
+    demo_url: "https://lms.krishnasai.top/",
+  },
+  {
     img: "/Ecospend.png",
     title: "Budget Tracker - EcoSpend",
     description:
